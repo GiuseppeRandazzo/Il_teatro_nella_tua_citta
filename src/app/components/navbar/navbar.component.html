@@ -1,0 +1,23 @@
+<nav class="navbar">
+  <div class="navbar-container">
+    <div class="navbar-brand">
+      <a routerLink="/">
+        <h1>Teatro in città</h1>
+      </a>
+    </div>
+
+    <ul class="navbar-menu">
+      <li>
+        <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+          Home
+        </a>
+      </li>
+      <li>
+        <a routerLink="/preferiti" routerLinkActive="active"> Preferiti </a>
+      </li>
+      <li>
+        <a routerLink="/Ricerca" routerLinkActive="active"> Ricerca </a>
+      </li>
+    </ul>
+  </div>
+</nav>
