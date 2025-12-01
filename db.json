@@ -1,0 +1,100 @@
+{
+  "spettacoli": [
+    {
+      "id": 1,
+      "titolo": "Romeo e Giulietta",
+      "descrizione": "Il classico di Shakespeare sull'amore tragico.",
+      "genere": "Drammatico",
+      "teatro": "Piccolo Teatro di Milano",
+      "citta": "Milano",
+      "cast": [
+        "Paola Gassman",
+        "Ugo Pagliai",
+        "Enrico Castellani",
+        "Valeria Raimondi",
+        "Francesco Scimemi"
+      ],
+      "date": ["2026-04-8", "2026-04-9", "2026-04-10"],
+      "prezzoMin": 25,
+      "prezzoMax": 80,
+      "immagine": "https://www.teatro.it/images/spettacoli/38118/photogallery/teatro.it-ugo-pagliai-paola-gassman-romeo-giulietta-pheleonoracavallo-03.jpg",
+      "inEvidenza": true
+    },
+    {
+      "id": 2,
+      "titolo": "La Traviata",
+      "descrizione": "Opera lirica di Giuseppe Verdi basata sul romanzo 'La Dame aux Camélias'.",
+      "genere": "Opera",
+      "teatro": "Teatro La Fenice",
+      "citta": "Venezia",
+      "cast": [
+        "Nadine Sierra",
+        "Carlotta Vichi",
+        "Piero Pretti",
+        "Boris Pinkhasovich",
+        "Francesco Pittari",
+        "Fabrizio Beggi"
+      ],
+      "date": ["2026-10-12", "2026-10-13", "2026-10-14", "2026-10-15"],
+      "prezzoMin": 40,
+      "prezzoMax": 150,
+      "immagine": "https://artsinitiative.columbia.edu/wp-content/uploads/2022/10/LaTraviata-1440x1000.jpg",
+      "inEvidenza": false
+    },
+    {
+      "id": 3,
+      "titolo": "Il Barbiere di Siviglia",
+      "descrizione": "Opera buffa di Gioachino Rossini basata sulla commedia di Beaumarchais.",
+      "genere": "Opera",
+      "teatro": "Teatro alla Scala",
+      "citta": "Milano",
+      "cast": [
+        "Cecilia Bartoli",
+        "Juan Diego Flórez",
+        "Dmitri Hvorostovsky",
+        "Anna Netrebko",
+        "Renato Bruson"
+      ],
+      "date": ["2026-06-20", "2026-06-21", "2026-06-22"],
+      "prezzoMin": 35,
+      "prezzoMax": 120,
+      "immagine": "https://www.teatroallascala.org/media/2021/10/Il-Barbiere-di-Siviglia.jpg",
+      "inEvidenza": true
+    },
+    {
+      "id": 4,
+      "titolo": "Aspettando Godot",
+      "descrizione": "Il capolavoro dell'assurdo di Samuel Beckett",
+      "genere": "Teatro dell'Assurdo",
+      "teatro": "Teatro Stabile",
+      "citta": "Torino",
+      "cast": ["Paolo Rossi", "Andrea Bianchi"],
+      "date": ["2025-12-25", "2025-12-26"],
+      "prezzoMin": 20,
+      "prezzoMax": 50,
+      "immagine": "https://www.ilmondodiart.com/wp-content/uploads/2011/03/Aspettando-Godot-Ugo-Pagliai-e-Eros-Pagni-orizz.-Foto-M.-Norberth.jpg.webp",
+      "inEvidenza": false
+    },
+    {
+      "id": 5,
+      "titolo": "Moulin Rouge!",
+      "descrizione": "Un musical spettacolare basato sul film omonimo.",
+      "genere": "Musical",
+      "teatro": "Il Sistina Chapiteau",
+      "citta": "Roma",
+      "cast": [
+        "Diana Del Bufalo",
+        "Luca Gaudiano",
+        "Mattia Braghero",
+        "Emiliano Geppetti",
+        "Gilles Rocca",
+        "Daniele Derogatis"
+      ],
+      "date": ["2026-11-28", "2026-11-29", "2026-11-30"],
+      "prezzoMin": 42,
+      "prezzoMax": 49,
+      "immagine": "https://ilsistina.it/wp-content/uploads/elementor/thumbs/MOULINROUGE_3x2_foto3_BASSA3-rbjwl7w64uquk2v5ulggfg866zvjq859gobd98ksug.jpg",
+      "inEvidenza": true
+    }
+  ]
+}
