@@ -11,32 +11,41 @@
     text-align: center;
   }
 
-  .cities {
+  .search-container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
     justify-content: center;
 
-    button {
-      padding: 0.6rem 1.2rem;
+    .city-input {
+      width: 100%;
+      max-width: 500px;
+      padding: 0.8rem 1.2rem;
       border: 2px solid #e0e0e0;
-      background: white;
-      border-radius: 20px;
-      cursor: pointer;
-      font-size: 0.95rem;
+      border-radius: 25px;
+      font-size: 1rem;
       transition: all 0.3s ease;
+      outline: none;
 
-      &:hover {
+      &:focus {
         border-color: #b22222;
-        color: #b22222;
+        box-shadow: 0 0 0 3px rgba(178, 34, 34, 0.1);
       }
 
-      &.active {
-        background: linear-gradient(135deg, #b22222 0%, #8b0000 100%);
-        color: white;
-        border-color: transparent;
-        font-weight: 600;
+      &::placeholder {
+        color: #999;
+      }
+
+      &.error {
+        border-color: #dc3545;
+        box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.1);
       }
     }
+  }
+
+  .error-message {
+    text-align: center;
+    color: #dc3545;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    font-weight: 500;
   }
 }

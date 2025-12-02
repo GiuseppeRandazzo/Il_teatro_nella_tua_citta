@@ -1,12 +1,20 @@
 <div class="city-selector">
   <h3>Seleziona la tua città</h3>
-  <div class="cities">
-    <button
-      *ngFor="let city of cities"
-      [class.active]="city === selectedCity"
-      (click)="selectCity(city)"
-    >
-      {{ city }}
-    </button>
+  <div class="search-container">
+    <input
+      type="text"
+      class="city-input"
+      [class.error]="showError"
+      [(ngModel)]="searchText"
+      (input)="onInputChange()"
+      (keyup.enter)="selectCity()"
+      (change)="selectCity()"
+      list="cities-list"
+      placeholder="Cerca una città..."
+    />
+    <datalist id="cities-list">
+      <option *ngFor="let city of filteredCities" [value]="city"></option>
+    </datalist>
   </div>
+  <p class="error-message" *ngIf="showError">Città non trovata.</p>
 </div>
