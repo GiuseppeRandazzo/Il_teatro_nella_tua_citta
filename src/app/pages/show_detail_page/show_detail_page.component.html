@@ -11,30 +11,30 @@
         <img [src]="show.immagine" [alt]="show.titolo" class="show-image" />
         <div class="show-info">
           <h1>{{ show.titolo }}</h1>
-          <p class="genere">🎭 {{ show.genere }}</p>
-          <p class="teatro">📍 {{ show.teatro }} - {{ show.citta }}</p>
-          <p class="prezzo">💰 Da €{{ show.prezzoMin }} a €{{ show.prezzoMax }}</p>
+          <p class="genere">{{ show.genere }}</p>
+          <p class="teatro">{{ show.teatro }} - {{ show.citta }}</p>
+          <p class="prezzo">Da €{{ show.prezzoMin }} a €{{ show.prezzoMax }}</p>
           <button class="favorite-btn" [class.active]="isFavorite()" (click)="toggleFavorite()">
-            {{ isFavorite() ? '❤️ Rimuovi dai preferiti' : '🤍 Aggiungi ai preferiti' }}
+            {{ isFavorite() ? 'Rimuovi dai preferiti' : 'Aggiungi ai preferiti' }}
           </button>
         </div>
       </div>
 
       <div class="show-body">
         <section class="description">
-          <h2>📖 Descrizione</h2>
+          <h2>Descrizione</h2>
           <p>{{ show.descrizione }}</p>
         </section>
 
         <section class="cast">
-          <h2>🎬 Cast</h2>
+          <h2>Cast</h2>
           <ul>
             <li *ngFor="let attore of show.cast">{{ attore }}</li>
           </ul>
         </section>
 
         <section class="dates">
-          <h2>📅 Date degli spettacoli</h2>
+          <h2>Date degli spettacoli</h2>
           <div class="dates-list">
             <span *ngFor="let data of show.date" class="date-badge">
               {{ data }}

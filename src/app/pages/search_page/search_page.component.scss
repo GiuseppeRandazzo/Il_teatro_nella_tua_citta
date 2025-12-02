@@ -49,8 +49,8 @@
 
           &:focus {
             outline: none;
-            border-color: #667eea;
-            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+            border-color: #b22222;
+            box-shadow: 0 0 0 3px rgba(178, 34, 34, 0.1);
           }
         }
 
@@ -81,12 +81,12 @@
           transition: all 0.3s ease;
 
           &.btn-search {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #b22222 0%, #8b0000 100%);
             color: white;
 
             &:hover {
               transform: translateY(-2px);
-              box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+              box-shadow: 0 4px 12px rgba(178, 34, 34, 0.4);
             }
           }
 

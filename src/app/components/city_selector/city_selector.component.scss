@@ -8,12 +8,14 @@
   h3 {
     margin: 0 0 1rem 0;
     color: #333;
+    text-align: center;
   }
 
   .cities {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
+    justify-content: center;
 
     button {
       padding: 0.6rem 1.2rem;
@@ -25,12 +27,12 @@
       transition: all 0.3s ease;
 
       &:hover {
-        border-color: #667eea;
-        color: #667eea;
+        border-color: #b22222;
+        color: #b22222;
       }
 
       &.active {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(135deg, #b22222 0%, #8b0000 100%);
         color: white;
         border-color: transparent;
         font-weight: 600;

@@ -13,12 +13,12 @@
 
   <div class="show-content">
     <h3>{{ show.titolo }}</h3>
-    <p class="teatro">📍 {{ show.teatro }} - {{ show.citta }}</p>
-    <p class="genere">🎭 {{ show.genere }}</p>
+    <p class="teatro">{{ show.teatro }} - {{ show.citta }}</p>
+    <p class="genere">{{ show.genere }}</p>
     <p class="descrizione">{{ show.descrizione }}</p>
     <div class="show-footer">
-      <span class="prezzo">💰 €{{ show.prezzoMin }} - €{{ show.prezzoMax }}</span>
-      <span class="date">📅 {{ show.date.length }} date</span>
+      <span class="prezzo">€{{ show.prezzoMin }} - €{{ show.prezzoMax }}</span>
+      <span class="date">{{ show.date.length }} date</span>
     </div>
   </div>
 </div>

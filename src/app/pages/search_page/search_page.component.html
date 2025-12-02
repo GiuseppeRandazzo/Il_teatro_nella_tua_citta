@@ -1,10 +1,10 @@
 <div class="search-page">
   <div class="container">
-    <h1>🔍 Ricerca Avanzata</h1>
+    <h1>Ricerca Avanzata</h1>
 
     <div class="search-form">
       <div class="form-group full-width">
-        <label>🔎 Cerca per titolo o descrizione</label>
+        <label>Cerca per titolo o descrizione</label>
         <input
           type="text"
           [(ngModel)]="searchText"
@@ -14,7 +14,7 @@
       </div>
 
       <div class="form-group">
-        <label>🎭 Genere</label>
+        <label>Genere</label>
         <select [(ngModel)]="selectedGenre" class="form-control">
           <option value="">Tutti i generi</option>
           <option *ngFor="let genre of genres" [value]="genre">{{ genre }}</option>
@@ -22,7 +22,7 @@
       </div>
 
       <div class="form-group">
-        <label>🌆 Città</label>
+        <label>Città</label>
         <select [(ngModel)]="selectedCity" class="form-control">
           <option value="">Tutte le città</option>
           <option *ngFor="let city of cities" [value]="city">{{ city }}</option>
@@ -30,7 +30,7 @@
       </div>
 
       <div class="form-group">
-        <label>🏛️ Teatro</label>
+        <label>Teatro</label>
         <select [(ngModel)]="selectedTeatro" class="form-control">
           <option value="">Tutti i teatri</option>
           <option *ngFor="let teatro of teatri" [value]="teatro">{{ teatro }}</option>
@@ -38,7 +38,7 @@
       </div>
 
       <div class="form-group">
-        <label>💰 Prezzo Minimo (€)</label>
+        <label>Prezzo Minimo (€)</label>
         <input
           type="number"
           [(ngModel)]="minPrice"
@@ -49,7 +49,7 @@
       </div>
 
       <div class="form-group">
-        <label>💰 Prezzo Massimo (€)</label>
+        <label>Prezzo Massimo (€)</label>
         <input
           type="number"
           [(ngModel)]="maxPrice"
@@ -60,8 +60,8 @@
       </div>
 
       <div class="form-actions full-width">
-        <button class="btn-search" (click)="search()">🔍 Cerca</button>
-        <button class="btn-reset" (click)="resetFilters()">🔄 Reset</button>
+        <button class="btn-search" (click)="search()">Cerca</button>
+        <button class="btn-reset" (click)="resetFilters()">Reset</button>
       </div>
     </div>
 
@@ -70,13 +70,12 @@
     </div>
 
     <div *ngIf="!loading && hasSearched && filteredShows.length === 0" class="no-results">
-      <span class="icon">😔</span>
       <h2>Nessun risultato trovato</h2>
       <p>Prova a modificare i filtri di ricerca</p>
     </div>
 
     <div *ngIf="!loading && hasSearched && filteredShows.length > 0" class="results">
-      <h2>📋 Risultati trovati: {{ filteredShows.length }}</h2>
+      <h2>Risultati trovati: {{ filteredShows.length }}</h2>
       <div class="shows-grid">
         <app-show-card *ngFor="let show of filteredShows" [show]="show"> </app-show-card>
       </div>
