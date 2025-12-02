@@ -9,7 +9,16 @@ export class CityService {
   private citySubject: BehaviorSubject<string>;
 
   // Lista delle città disponibili
-  readonly availableCities = ['Tutte', 'Milano', 'Roma', 'Torino', 'Napoli', 'Firenze', 'Udine', 'Trieste'];
+  readonly availableCities = [
+    'Tutte',
+    'Milano',
+    'Roma',
+    'Torino',
+    'Napoli',
+    'Firenze',
+    'Udine',
+    'Trieste',
+  ];
 
   constructor() {
     // Carica la città salvata o usa 'Tutte' come default
