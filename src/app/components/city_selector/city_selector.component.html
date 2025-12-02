@@ -1,0 +1,12 @@
+<div class="city-selector">
+  <h3>🌆 Seleziona Città</h3>
+  <div class="cities">
+    <button
+      *ngFor="let city of cities"
+      [class.active]="city === selectedCity"
+      (click)="selectCity(city)"
+    >
+      {{ city }}
+    </button>
+  </div>
+</div>

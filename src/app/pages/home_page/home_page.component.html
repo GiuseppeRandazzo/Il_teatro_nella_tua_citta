@@ -1,4 +1,19 @@
 <div class="home-page">
-  <h2>Home Page - Spettacoli in Evidenza</h2>
-  <p>Qui vedremo gli spettacoli in evidenza</p>
+  <div class="container">
+    <h1>Spettacoli in Programmazione</h1>
+
+    <app-city-selector></app-city-selector>
+
+    <div *ngIf="loading" class="loading">
+      <p>Caricamento spettacoli...</p>
+    </div>
+
+    <div *ngIf="!loading && filteredShows.length === 0" class="no-shows">
+      <p>Nessuno spettacolo trovato per questa città.</p>
+    </div>
+
+    <div *ngIf="!loading && filteredShows.length > 0" class="shows-grid">
+      <app-show-card *ngFor="let show of filteredShows" [show]="show"> </app-show-card>
+    </div>
+  </div>
 </div>
