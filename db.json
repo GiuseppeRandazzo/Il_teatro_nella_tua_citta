@@ -129,6 +129,45 @@
       "prezzoMax": 30,
       "immagine": "https://www.teatro.it/images/2025/10/spettacoli/43389/main-image/teatroit-buccirosso-qualcosa-e-andato-storto-date-biglietti.jpg",
       "inEvidenza": true
+    },
+    {
+      "id": 8,
+      "titolo": "Il Gabbiano",
+      "descrizione": "Un classico di Anton Čechov che esplora i sogni e le delusioni.",
+      "genere": "Drammatico",
+      "teatro": "Teatro Nuovo Giovanni da Udine",
+      "citta": "Udine",
+      "cast": [
+        "Virginia Campolucci",
+        "Enrica Cortese",
+        "Giuliana De Sio",
+        "Gennaro Di Biase",
+        "Filippo Dini",
+        "Giovanni Drago",
+        "Angelica Leo",
+        "Valerio Mazzucato",
+        "Fulvio Pepe",
+        "Edoardo Sorgente"
+      ],
+      "date": ["06-03-2026", "07-03-2026", "08-03-2026", "09-03-2026"],
+      "prezzoMin": 30,
+      "prezzoMax": 70,
+      "immagine": "https://www.teatroudine.it/data_files/events/foto-gabbiano.jpeg",
+      "inEvidenza": false
+    },
+    {
+      "id": 9,
+      "titolo": "Cats",
+      "descrizione": "Il celebre musical di Andrew Lloyd Webber basato sui poemi di T.S. Eliot.",
+      "genere": "Musical",
+      "teatro": "Teatro Politeama Rossetti (Sala Ass. Generali)",
+      "citta": "Trieste",
+      "cast": [],
+      "date": ["05-12-2026", "06-12-2026", "07-12-2026"],
+      "prezzoMin": 45,
+      "prezzoMax": 100,
+      "immagine": "https://www.teatro.it/images/spettacoli/27478/photogallery/teatro.it-CATS-originale-02-ph-alessandrapinna.jpg",
+      "inEvidenza": true
     }
   ]
 }
