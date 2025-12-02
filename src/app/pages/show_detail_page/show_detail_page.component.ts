@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-show-detail-page',
   standalone: true,
   imports: [],
-  templateUrl: './show-detail-page.component.html',
-  styleUrl: './show-detail-page.component.scss',
+  templateUrl: './show_detail_page.component.html',
+  styleUrl: './show_detail_page.component.scss',
 })
 export class ShowDetailPageComponent {}

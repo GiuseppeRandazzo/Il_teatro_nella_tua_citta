@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-favorites-page',
   standalone: true,
   imports: [],
-  templateUrl: './favorites-page.component.html',
-  styleUrl: './favorites-page.component.scss',
+  templateUrl: './favorites_page.component.html',
+  styleUrl: './favorites_page.component.scss',
 })
 export class FavoritesPageComponent {}
