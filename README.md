@@ -1,10 +1,10 @@
-# Teatro in Città
+# Il teatro nella tua Città
 
 Applicazione web Angular per la scoperta e gestione di spettacoli teatrali nelle principali città italiane.
 
 ## Descrizione
 
-**Teatro in Città** è un'applicazione moderna e responsive sviluppata con Angular 21 che permette agli utenti di:
+**Il teatro nella tua Città** è un'applicazione moderna e responsive sviluppata con Angular 21 che permette agli utenti di:
 
 - Esplorare spettacoli teatrali in programmazione
 - Filtrare gli spettacoli per città, genere, teatro e fascia di prezzo
